@@ -1,0 +1,76 @@
+.boxText {
+  width: 95%;
+}
+.twoblock {
+  width: 100%;
+}
+.twoblock h2 {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 3%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+  color: #fff;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+@media screen and (max-width: 850px){
+  .twoblock h2 {
+    padding-top: 0;
+  }
+}
+.twoblock span {
+  width: 100%;
+  padding-left: 3%;
+  display: block;
+  font-size: 18px;
+  line-height: 1.3;
+  color: whitesmoke;
+  opacity: 0.9;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.twoblock span strong {
+  font-size: 16px;
+  line-height: 1.3;
+  color: whitesmoke;
+  opacity: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+.boxText p {
+  padding-top: 20px;
+  padding-left: 4%;
+  position: relative;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.liners {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 3%;
+}
+hr.liner {
+  width: 100%;
+  border: 1px solid white;
+  opacity: 1;
+}
+.boxText img {
+    width: 96%;
+    height: 380px;
+}
+@media screen and (max-width: 850px){
+    .boxText img {
+        height: 280px;
+    }
+}
